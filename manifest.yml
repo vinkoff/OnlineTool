@@ -1,6 +1,6 @@
 ---
 applications:
--  name: OnlineTool
+-  name: vinpack-online
    path: build/libs/onlinetool.jar
    domain: cfapps.io
    memory: 1GB
