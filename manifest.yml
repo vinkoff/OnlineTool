@@ -1,0 +1,7 @@
+applications:
+  name: OnlineTool
+  path: build/libs/onlinetool.jar
+  domain: cfapps.io
+  memory: 512m
+  instances: 1
+

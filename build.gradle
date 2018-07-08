@@ -10,13 +10,17 @@ buildscript {
 	}
 }
 
+plugins {
+    id "org.springframework.boot" version "2.0.3.RELEASE"
+}
+
 apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'com.onlinetool'
-version = '0.0.1-SNAPSHOT'
+version = ''
 sourceCompatibility = 1.8
 
 repositories {
@@ -32,10 +36,3 @@ dependencies {
 	testCompile('org.springframework.security:spring-security-test')
 }
 
-jar {
-	enabled = true
-}
-
-springBoot {
-	mainClassName = 'com.onlinetool.onlinetool.OnlinetoolApplication'
-}
